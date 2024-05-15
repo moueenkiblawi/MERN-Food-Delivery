@@ -2,8 +2,5 @@
     "buildCommand":"cd frontend && npm install && npm run build",
     "outputDirectory":"frontend/dist",
     "framework":"vite",
-    "rewrites":[{
-        "source":"/backend/(.*)",
-        "distination":"/backend/server.js"
-    }]
+     "rewrites": [{ "source": "/backend/(.*)", "destination": "/backend/server.js"}]
 }
