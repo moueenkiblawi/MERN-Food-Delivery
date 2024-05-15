@@ -5,7 +5,7 @@ export const StoreContext = createContext({}); // Provide an initial value for t
 
 const StoreContextProvider = (props) => {
     const [cartItems, setCartItems] = useState({});
-    const url = import.meta.env.VITE_URL;
+    const url = "https://mern-food-delivery-1.onrender.com";
     const [token, setToken] = useState("");
     const [food_list, setFoodList] = useState([]);
 

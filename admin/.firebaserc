@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "food-delivery-335ee",
+    "dist": "food-delivery-admin-971ec"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
