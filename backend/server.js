@@ -10,7 +10,7 @@ import orderRouter from './routes/orderRoute.js';
 //app config
 const app = express()
 const port = process.env.PORT  
-const url = process.env.BACK_URL || `http://localhost:${port}`; 
+const url = "https://mern-food-delivery-1.onrender.com"; 
 
 //middleware
 app.use(cors());
